@@ -1,0 +1,33 @@
+body{
+    margin: auto;
+    background-color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    color: #FFFFFF;
+    align-self: center;
+}
+
+#subscribe-button{
+    border: none;
+    border-radius: 4px;
+    width: 105px;
+    height: 36px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    transition: 0.125s;
+}
+
+#subscribe-button:hover{
+    background-color: #ff553b;
+    transition: 0.125s;
+    transform: scale(105%, 105%)
+}
+
+#subscribe-button:hover:active{
+    transition: 0s;
+    color: #c6bcff;
+    background-color: #89014e;
+    transform: scale(95%, 95%)
+}
